@@ -13,6 +13,7 @@ public class Mitarbeiter {
         this.gehalt = gehalt;
     }
 
+    // Erhöht und rundet das Gehalt auf zwei Nachkommastellen auf
     public double erhoeheGehalt(double prozent) {
         gehalt = gehalt * (1 + prozent / 100);
         BigDecimal bd = new BigDecimal(gehalt);
