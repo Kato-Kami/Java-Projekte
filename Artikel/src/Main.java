@@ -78,7 +78,7 @@ public static void main(String[] args) {
             // continue;
         }
     }
-    while (zahl != 4);
+    while (zahl != 4); // Führt das Menü solange fort, solange die vier nicht ausgewählt wurde
 
     // Auswahl 4: Beendet das Programm mit einer Nachricht an den User
     System.out.println("Beehren Sie uns bald wieder! :D");
