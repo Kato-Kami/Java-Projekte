@@ -1,3 +1,5 @@
+// Hilfsklasse zur Berechnung von Summe, Anzahl und Durchschnitt
+
 public class SummeUndAnzahl {
     final double summe;
     final long anzahl;
